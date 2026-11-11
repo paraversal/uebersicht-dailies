@@ -16,13 +16,13 @@ One row per habit, one column per day, a dot in every cell. Click a dot to cycle
 You need macOS and [Übersicht](https://tracesof.net/uebersicht/).
 
 ```bash
-git clone https://github.com/paraversal/uebersichtdailies.git
-cd uebersichtdailies
+git clone https://github.com/paraversal/uebersicht-dailies.git
+cd uebersicht-dailies
 cp dailies.widget/config.example.json dailies.widget/config.json
 ln -s "$PWD/dailies.widget" "$HOME/Library/Application Support/Übersicht/widgets/dailies.widget"
 ```
 
-**Or without git:** download [`dailies.widget.zip`](https://github.com/paraversal/uebersichtdailies/raw/main/dailies.widget.zip), unzip it into `~/Library/Application Support/Übersicht/widgets/` and copy `config.example.json` to `config.json` inside the new `dailies.widget` folder.
+**Or without git:** download [`dailies.widget.zip`](https://github.com/paraversal/uebersicht-dailies/raw/main/dailies.widget.zip), unzip it into `~/Library/Application Support/Übersicht/widgets/` and copy `config.example.json` to `config.json` inside the new `dailies.widget` folder.
 
 Then refresh the widgets from the Übersicht menu bar icon. Edit your habits in `dailies.widget/config.json`; Übersicht reloads the widget whenever the file changes.
 
